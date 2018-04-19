@@ -38,7 +38,7 @@ $(document).ready(function () {
     function incorrectAnswerFeedback() {
         let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
         console.log('incorrect');
-        $('.quiz-page').html(`<div class='incorrect-feedback'><div><video autoplay loop><source type="video/mp4" src="//i.imgur.com/1dL0wXa.mp4" alt="Man swinging spatula like baseball bat'" playsinline></video><p>A swing and a miss! The correct answer was ${correctAnswer}.</p></div><button type="button" role="button" id='nextQuestion'>Moving on...</button></div>`)
+        $('.quiz-page').html(`<div class='incorrect-feedback'><div><video autoplay loop><source type="video/mp4" src="//i.imgur.com/1dL0wXa.mp4" alt="Man swinging spatula like baseball bat saying, 'A swing and a miss'." playsinline></video><p>A swing and a miss! The correct answer was ${correctAnswer}.</p></div><button type="button" role="button" id='nextQuestion'>Moving on...</button></div>`)
     }
     /**
      * renders results page in the DOM and hides header

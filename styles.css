@@ -182,7 +182,8 @@ button {
     color: white;
     border: 1px solid black;
     border-radius: 20px;
-    background-color: rgba(62, 154, 219, 0.75);
+    /*a11y changes*/
+    background-color: rgba(19, 79, 131, 0.95);
     font-family: inherit;
     font-size: 120%;
     text-transform: uppercase;
