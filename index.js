@@ -5,9 +5,6 @@ $(document).ready(function () {
     let questionNumber = 0;
     let score = 0;
 
-    console.log('ready!')
-
-
     /**
      * increments questionNumber variable
      */
@@ -17,7 +14,9 @@ $(document).ready(function () {
 
     }
 
-    //This updates the current question number display in the header
+    /**
+    *This updates the current question number display in the header
+    */
     function updateQuestionNumber() {
 
         $('.question-number').html(questionNumber + 1)
@@ -165,7 +164,6 @@ $(document).ready(function () {
      *compares selected answer against the correct answer, increments score, and updates score and current question number trackers in header.
      */
     function chooseAnswer() {
-
 
         let correctAnswer = `${STORE[questionNumber].correctAnswer}`;
         let chosen = $('.radioButton:checked');
