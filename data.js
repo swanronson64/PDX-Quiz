@@ -109,6 +109,3 @@ const STORE = [{
     gif: 'insert URL here',
     alt: 'describe URL here'
 }];
-
-/* choose incorrect gif*/
-// rename gif to img url
